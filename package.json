@@ -1,0 +1,26 @@
+{
+  "name": "nightwatch-eduservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TavernierAlicia/nightwatch-eduservices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TavernierAlicia/nightwatch-eduservices/issues"
+  },
+  "homepage": "https://github.com/TavernierAlicia/nightwatch-eduservices#readme",
+  "dependencies": {
+    "dotenv": "^15.0.0"
+  },
+  "devDependencies": {
+    "chromedriver": "^97.0.3",
+    "nightwatch": "^2.0.2"
+  }
+}
