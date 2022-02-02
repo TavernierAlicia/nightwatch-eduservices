@@ -10,10 +10,10 @@
 * You need a Eduservices student account https://mycampus.eduservices.org
 
 ## Installation
-* To install Nightwatch eduservices, you need to clone this repository with the following command:
+* To install Nightwatch eduservices, you need to clone this repository with the following command: <br />
 ```git clone https://github.com/TavernierAlicia/nightwatch-eduservices.git```
 
-* Then install node packages:
+* Then install node packages: <br />
 ```npm install```
 
 
@@ -21,10 +21,10 @@
 ### To run this application, you have two options:
 :warning: **If you launch the "profile" module, your password will be changed**: The "profile" module contains a password change test
 
-* Run all kind of test:
+* Run all kind of test: <br />
 ```USER_ID="myeduusername" USER_PWD="myedupassword" USER_NEW_PWD="mynewedupassword" npm run test```
 
-* Run only one kind of test:
+* Run only one kind of test: <br />
 ```USER_ID="myeduusername" USER_PWD="myedupassword" USER_NEW_PWD="mynewedupassword" npm run test --tag mymodule```
 
 :warning: **USER_NEW_PASSWORD is optionnal on theses modules:**
