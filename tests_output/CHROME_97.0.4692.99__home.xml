@@ -4,14 +4,42 @@
             tests="1">
 
   <testsuite name="home"
-    errors="0" failures="1" hostname="" id="" package="home" skipped="13"
-    tests="1" time="11.45" timestamp="">
+    errors="0" failures="1" hostname="" id="" package="home" skipped="0"
+    tests="1" time="33.67" timestamp="">
   
-    <testcase name="ConnectGood" classname="home" time="11.45" assertions="3">
+    <testcase name="EditPWD" classname="home" time="33.67" assertions="17">
 
     
 
-      <failure message="Timed out while waiting for element &lt;[id=idSIButton9]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (5167ms)">    at Object.ConnectGood (/home/alicia/Documents/nightwatch-eduservices/tests/home.js:31:8)</failure>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &#39;div[class=&#34;ContentContainer&#34;] &gt; table &gt; tbody &gt; tr[class=&#34;PropertySheetItem&#34;] &gt; td[id=&#34;ChangePasswordControl_NewPasswordProperty&#34;] &gt; span[id=&#34;ChangePasswordControl_NewPasswordPropertyValidator&#34;]&#39; is hidden in 5000ms - expected &#34;true&#34; but got: &#34;false&#34; (5552ms)">    at Object.EditPWD (/home/alicia/Documents/nightwatch-eduservices/tests/home.js:772:15)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
 
     
     </testcase>
@@ -21,73 +49,6 @@
 
     
 
-  
-    
-    <testcase
-      name="ConnectBadMail" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="ConnectBadPWD" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="Disconnect" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="Search" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="Profile" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="FAQ" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="FAQDirect" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="FAQDetails" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="ProfileToHome" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="FAQToHome" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="ReturnIndex" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="Messages" classname="home">
-      <skipped />
-    </testcase>
-    
-    <testcase
-      name="UseHyperplanning" classname="home">
-      <skipped />
-    </testcase>
-    
   
   </testsuite>
 </testsuites>
