@@ -1,10 +1,9 @@
-// To start this test module properly, launch it with the following command: USER_ID="myusername" USER_PWD="mypassword" npm run test
 let id = process.env.USER_ID
 let pwd = process.env.USER_PWD
-let newpwd = process.env.USER_NEW_PWD
 
 module.exports = {
-  
+  tags:['general'],
+
   'Search': function (browser) {
 
     //////////// connect process ////////////
