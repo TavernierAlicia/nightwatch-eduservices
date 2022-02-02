@@ -11,10 +11,10 @@
 
 ## Installation
 * To install Nightwatch eduservices, you need to clone this repository with the following command:
-[git clone https://github.com/TavernierAlicia/nightwatch-eduservices.git]
+```git clone https://github.com/TavernierAlicia/nightwatch-eduservices.git```
 
 * Then install node packages:
-[npm install]
+```npm install```
 
 
 ## Running Nightwatch-eduservices
@@ -22,15 +22,16 @@
 :warning: **If you launch the "profile" module, your password will be changed**: The "profile" module contains a password change test
 
 * Run all kind of test:
-[USER_ID="myeduusername" USER_PWD="myedupassword" USER_NEW_PWD="mynewedupassword" npm run test]
+```USER_ID="myeduusername" USER_PWD="myedupassword" USER_NEW_PWD="mynewedupassword" npm run test```
 
 * Run only one kind of test:
-[USER_ID="myeduusername" USER_PWD="myedupassword" USER_NEW_PWD="mynewedupassword" npm run test --tag mymodule]
+```USER_ID="myeduusername" USER_PWD="myedupassword" USER_NEW_PWD="mynewedupassword" npm run test --tag mymodule```
 
 :warning: **USER_NEW_PASSWORD is optionnal on theses modules:**
 - general
 - faq
 - login-out
 
-:warning: **But required with profile "module".**
+:warning: **But required with:**
+- profile
 
