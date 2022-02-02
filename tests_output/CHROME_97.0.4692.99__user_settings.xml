@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="3">
+
+  <testsuite name="user_settings"
+    errors="0" failures="1" hostname="" id="" package="user_settings" skipped="0"
+    tests="3" time="66.82" timestamp="">
+  
+    <testcase name="Profile" classname="user_settings" time="13.41" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="ProfileToHome" classname="user_settings" time="18.59" assertions="10">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="EditPWD" classname="user_settings" time="34.82" assertions="16">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &#39;div[class=&#34;ContentContainer&#34;] &gt; table &gt; tbody &gt; tr[class=&#34;PropertySheetItem&#34;] &gt; td[id=&#34;ChangePasswordControl_NewPasswordProperty&#34;] &gt; span[id=&#34;ChangePasswordControl_NewPasswordPropertyValidator&#34;]&#39; is hidden in 5000ms - expected &#34;true&#34; but got: &#34;false&#34; (5491ms)">    at Object.EditPWD (/home/alicia/Documents/nightwatch-eduservices/tests/user_settings.js:186:15)
+    at runMicrotasks (&lt;anonymous&gt;)</failure>
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

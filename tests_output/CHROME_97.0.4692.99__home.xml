@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
-            tests="1">
+            failures="0"
+            tests="4">
 
   <testsuite name="home"
-    errors="0" failures="1" hostname="" id="" package="home" skipped="0"
-    tests="1" time="33.67" timestamp="">
+    errors="0" failures="0" hostname="" id="" package="home" skipped="0"
+    tests="4" time="74.83" timestamp="">
   
-    <testcase name="EditPWD" classname="home" time="33.67" assertions="17">
+    <testcase name="Search" classname="home" time="15.45" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="ReturnIndex" classname="home" time="19.23" assertions="10">
 
     
 
@@ -28,8 +45,28 @@
     
 
     
+    </testcase>
+  
+    <testcase name="Messages" classname="home" time="18.83" assertions="7">
 
-      <failure message="Testing if element &#39;div[class=&#34;ContentContainer&#34;] &gt; table &gt; tbody &gt; tr[class=&#34;PropertySheetItem&#34;] &gt; td[id=&#34;ChangePasswordControl_NewPasswordProperty&#34;] &gt; span[id=&#34;ChangePasswordControl_NewPasswordPropertyValidator&#34;]&#39; is hidden in 5000ms - expected &#34;true&#34; but got: &#34;false&#34; (5552ms)">    at Object.EditPWD (/home/alicia/Documents/nightwatch-eduservices/tests/home.js:772:15)</failure>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="UseHyperplanning" classname="home" time="21.32" assertions="7">
+
+    
 
     
 

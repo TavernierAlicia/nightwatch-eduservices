@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="4">
+
+  <testsuite name="login_logout"
+    errors="0" failures="0" hostname="" id="" package="login_logout" skipped="0"
+    tests="4" time="33.48" timestamp="">
+  
+    <testcase name="ConnectGood" classname="login_logout" time="8.632" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="ConnectBadMail" classname="login_logout" time="4.302" assertions="2">
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="ConnectBadPWD" classname="login_logout" time="6.644" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Disconnect" classname="login_logout" time="13.90" assertions="7">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
